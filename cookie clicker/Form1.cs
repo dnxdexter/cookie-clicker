@@ -96,7 +96,7 @@ namespace cookie_clicker
             if (money >= price2)
             {
                 money = money - price2;
-                clickspeed = clickspeed - (clickspeed * 5);
+                clickspeed = clickspeed - (clickspeed * 0.05);
                 linkLabel2.Text = "Purchase complete";
                 await Task.Delay(500);
                 price2 = price2 * 3;
