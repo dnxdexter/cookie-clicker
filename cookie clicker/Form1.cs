@@ -96,7 +96,7 @@ namespace cookie_clicker
             if (money >= price2)
             {
                 money = money - price2;
-                clickspeed = clickspeed - (clickspeed * 0.1);
+                clickspeed = clickspeed - (clickspeed * 5);
                 linkLabel2.Text = "Purchase complete";
                 await Task.Delay(500);
                 price2 = price2 * 3;
@@ -126,7 +126,7 @@ namespace cookie_clicker
             {
                 money = money - price1;
                 lblmoney.Text = "Money: $" + money;
-                multiplyer = multiplyer + (price1 * 0.1);
+                multiplyer = multiplyer + (price1 * 5);
                 linkLabel1.Text = "Purchase complete";
                 await Task.Delay(500);
                 price1 = price1 * 3;
