@@ -35,7 +35,7 @@ namespace cookie_clicker
                 amountofclickers++;
                 linkLabel3.Text = "Purchase complete";
                 await Task.Delay(500);
-                price3 = price3 * 3;
+                price3 = price3 * 2;
                 Text = price3.ToString();
                 linkLabel3.Text = price3.ToString();
             }
@@ -99,7 +99,7 @@ namespace cookie_clicker
                 clickspeed = clickspeed - (clickspeed * 0.05);
                 linkLabel2.Text = "Purchase complete";
                 await Task.Delay(500);
-                price2 = price2 * 3;
+                price2 = price2 * 2;
                 Text = price2.ToString();
                 linkLabel2.Text = price1.ToString();
             }
@@ -129,7 +129,7 @@ namespace cookie_clicker
                 multiplyer = multiplyer + (price1 * 5);
                 linkLabel1.Text = "Purchase complete";
                 await Task.Delay(500);
-                price1 = price1 * 3;
+                price1 = price1 * 2;
                 Text = price1.ToString();
                 linkLabel1.Text = price1.ToString();
             }
